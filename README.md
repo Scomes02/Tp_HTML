@@ -25,7 +25,10 @@ Al ser un proyecto estático básico, no requiere la instalación de dependencia
 2. Navega hasta el directorio del proyecto.
 
 3. Haz doble clic en el archivo index.html para abrirlo en tu navegador web predeterminado.
-👨‍💻 Autor
+
+---
+
+##👨‍💻 Autor
 Santiago Comes
 
 Desarrollador de Software | Mendoza, Argentina
