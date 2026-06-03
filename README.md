@@ -28,7 +28,7 @@ Al ser un proyecto estático básico, no requiere la instalación de dependencia
 
 ---
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 Santiago Comes
 
 Desarrollador de Software | Mendoza, Argentina
