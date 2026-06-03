@@ -19,7 +19,7 @@ Este repositorio contiene la entrega del Trabajo Práctico correspondiente a la 
 Al ser un proyecto estático básico, no requiere la instalación de dependencias ni servidores locales. 
 
 1. Clona este repositorio en tu equipo local:
-```bash
+
    git clone [https://github.com/Scomes02/Tp_HTML.git](https://github.com/Scomes02/Tp_HTML.git)
 
 2. Navega hasta el directorio del proyecto.
