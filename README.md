@@ -32,15 +32,3 @@ Al ser un proyecto estático básico, no requiere la instalación de dependencia
 Santiago Comes
 
 Desarrollador de Software | Mendoza, Argentina
-
-
----
-
-### Instrucciones para sumarlo a tu repositorio
-
-Crea un archivo llamado `README.md` en la misma carpeta donde tienes tu `index.html` y pega el código de arriba. Luego, ejecuta esta secuencia rápida en tu terminal para subir esta nueva adición a GitHub:
-
-```bash
-git add README.md
-git commit -m "docs: agregar archivo README explicativo del proyecto"
-git push
