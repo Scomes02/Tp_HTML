@@ -12,6 +12,7 @@ Este repositorio contiene la entrega del Trabajo Práctico correspondiente a la 
 ## 🛠️ Tecnologías Utilizadas
 
 *   **HTML5:** Estructura y semántica de la página.
+*   **CSS3:** Estilo y diseño visual.
 *   **Git / GitHub:** Control de versiones y alojamiento del repositorio.
 
 ## 🚀 Cómo visualizar el proyecto
