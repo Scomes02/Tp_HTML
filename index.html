@@ -4,48 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tp Html - Semana 4</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Trabajo Práctico - Semana 4</h1>
     </header>
-    <main>
-        <section>
-            <h1>Sobre mí:</h1>
-            <p>Hola! Soy un desarrollador de software residente de Mendoza, me gusta el desarrollo frontend.</p>
+    
+    <main class="container">
+        <section class="card">
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy Santiago, Técnico Superior en Desarrollo de Software y residente en Las Heras, Mendoza. Me apasiona el desarrollo full-stack, enfocándome en diseñar e implementar soluciones robustas, eficientes y escalables. Disfruto trabajando tanto en la lógica del servidor como en interfaces de usuario, buscando siempre perfeccionar mis prácticas de código y aprender nuevas tecnologías.</p>
         </section>
 
-        <section>
-            <h2>Habilidades e Intereses:</h2>
-            <ul>
-                <li>Desarrollo Backend:</strong> Java, Spring Boot, PHP.</li>
-                <li>Base de Datos y Herramientas:</strong> MySQL, Git, Dbeaver.</li>
-                <li>Intereses Personales:</strong> Videojuegos, Cine y mejora en Programar.</li>
+        <section class="card">
+            <h2>Habilidades e Intereses</h2>
+            <ul class="skills-list">
+                <li><strong>Desarrollo Backend y Frontend:</strong> Java (Spring Boot), PHP (PDO), JavaScript, HTML5 y CSS3.</li>
+                <li><strong>Bases de Datos y Herramientas:</strong> MySQL, DBeaver, Git (metodología Gitflow) y VS Code.</li>
+                <li><strong>Intereses Personales:</strong> Desarrollo de la lógica en videojuegos (Unity), hardware tecnológico, cine y la mejora continua en programación.</li>
             </ul>
         </section>
 
-        <section>
-            <h2>Yo:</h2>
-            <img src="yo.jpg" alt="Foto de perfil" width="200">
+        <section class="card profile-section">
+            <h2>Yo</h2>
+            <img src="yo.jpg" alt="Foto de perfil de Santiago" width="200" class="profile-img">
         </section>
 
-        <section>
-            <h2>Contacto:</h2>
-            <form action="#" method="post">
-                <label for="name">Nombre:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+        <section class="card">
+            <h2>Contacto</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-                <label for="email">Correo Electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
-                <label for="message">Mensaje:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
 
-                <button type="submit">Enviar Mensaje</button>
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
         </section>
     </main>
+
     <footer>
-        <p>Mas información sobre en <a href="https://github.com/Scomes02" target="_blank">mi GitHub</a>.</p>
+        <p>Más información y proyectos en <a href="https://github.com/Scomes02" target="_blank">mi GitHub</a>.</p>
     </footer>
 </body>
 </html>
